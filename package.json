@@ -1,0 +1,19 @@
+{
+  "name": "near-fungible-token-example",
+  "version": "0.0.1",
+  "description": "In the library you can find contractrs like fungible tokens (NEP141) or NFT",
+  "scripts": {
+    "clean": "rm -rf ./build && rm -rf ./neardev",
+    "build:debug": "asb --target debug",
+    "build:release": "asb"
+  },
+  "keywords": [],
+  "author": "shankarpm@gmail.com",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "near-sdk-as": "^3.2.3",
+    "openblimp": "0.1.15",
+    "source-map-support": "^0.5.21"
+  }
+}
